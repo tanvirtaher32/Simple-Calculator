@@ -1,0 +1,92 @@
+body{
+    background-color: rgba(9, 9, 51, 0.897);
+    color: white;
+    text-align: center;
+}
+.container{
+    
+    height: 600px;
+    width: 1000px;
+    
+    background-image: url("https://png.pngtree.com/png-clipart/20190516/original/pngtree-simple-background-with-little-ornament-png-image_3589564.jpg");
+
+    margin: 30px auto;
+}
+#calculator{
+    width: 320px;
+    height: 520px;
+    margin: 0px auto;
+    background-color: ghostwhite;
+    position: relative;
+    top: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px   dimgray;
+}
+#result{
+    height: 120px;
+
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0px 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.63);
+}
+
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+    color: black;
+}
+
+#keybord{
+    height: 400px;
+}
+.operator,.number,.empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.number,.empty{
+    background-color: ghostwhite;
+}
+.number,.operator{
+    cursor: pointer;
+}
+.number:active , .operator:active{
+    font-size: 20px;
+}
+.number:focus , .operator:focus{
+    outline: none;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: brown;
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: cadetblue;
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: hotpink;
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: indigo;
+    
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: lawngreen;
+    
+}
